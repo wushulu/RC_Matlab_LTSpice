@@ -37,4 +37,18 @@
   
   <img width="1193" height="813" alt="image" src="https://github.com/user-attachments/assets/7d88ed7c-a7b8-489c-9bcf-76499833f800" />
 
+## RC 差分信号并增加运放
+  RC增加运放放，滤波器通过RC之后会再经过运放 放大倍数会限输入信号的带宽。
+  运放带宽 M/Gain 就是能通过最大频率的信号。
+  差分信号会存在零点和极点，可以通过计算出极点 即fc = 1/(2*pi*(R1+R2)*C) 与实际LTspice 仿真不一致。
+  
+  <img width="1844" height="759" alt="image" src="https://github.com/user-attachments/assets/059030e5-d3a6-491c-82a0-f575370787d7" />
+
+  根据图中可算出fc= 795K
+
+  实际运行仿真如下：约1.1MHz 确实越到高频阶段波形也会被'拉'起来
+  
+<img width="834" height="649" alt="image" src="https://github.com/user-attachments/assets/ef946fbd-7b34-4f22-a18d-304e93a1148f" />
+
+
   
