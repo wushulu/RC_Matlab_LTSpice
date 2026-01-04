@@ -16,7 +16,7 @@
   <img width="1586" height="975" alt="image" src="https://github.com/user-attachments/assets/dc369cad-9f63-4eca-9f7f-944eacd6dd99" />
 
 ## Matlab 
-  设置RC :R = 470+2980 c =68nf 采样时间T = 1e-5 所以a = 1e-5/(((2980+470)*68*1e-9)+1e-5) = 0.040883
+  设置RC :R = 470+2980 c =68nf 采样时间T = 1e-5 所以a = 1e-5/(((2980+470) *68 *1e-9)+1e-5) = 0.040883
 
 
   <img width="907" height="630" alt="image" src="https://github.com/user-attachments/assets/14bb0e7e-7c84-4009-a060-d54bbbd87e18" />
