@@ -18,8 +18,8 @@
 ## Matlab 
 ### 模拟到数字
 - RC输出公式： $Vin(t)=RC\dfrac{dVout}{dt}+Vout$ 
-  - 时间T采样换成x(n) y(n) :$x(n)=RC\dfrac{y(n)-y(n-1)}{T}+y(n)$
-  - 得到如下公式:$y(n)=a*x(n)+(1-a)y(n-1)$
+  - 时间T采样换成x(n) y(n) :  $x(n)=RC\dfrac{y(n)-y(n-1)}{T}+y(n)$
+  - 得到如下公式:  $y(n)=a*x(n)+(1-a)y(n-1)$
   - 计算a: $a=\dfrac{T}{RC+T}$ 
 - 设置RC :R = 470+2980 c =68nf 采样时间T = 1e-5 所以a = 1e-5/(((2980+470) *68 *1e-9)+1e-5) = 0.040883
    
